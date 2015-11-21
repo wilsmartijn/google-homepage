@@ -1,0 +1,86 @@
+html, body, #container{
+	font-family: arial,sans-serif;
+	font-size: 13px;
+	margin: 0px;
+	/* this makes the page without white bar at bottom */
+	overflow: hidden;
+	height: 100%;
+}
+
+
+#navigation ul {
+	float: right;
+}
+ ul li{
+	display: inline-block;
+	line-height: 25px;
+	margin: auto 5px;
+	outline: medium none;
+	vertical-align: middle;
+	text-align: right;
+}
+
+ul li a{
+	text-decoration: none;
+}
+#footer {
+	background: #B0B0B0;
+	bottom: 0px;
+	position: relative;
+   clear: both;
+ z-index: 10;
+ height: 3em;
+   margin-top: -3em;
+
+}
+.leftFooter, .rightFooter{
+		outline: medium none;
+	vertical-align: middle;
+		display: inline-block;
+
+}
+.leftFooter {
+	text-align: left;
+	float: left;
+}
+.rightFooter {
+	float: right;
+	text-align: right;
+}
+#navigation {
+	height: 128px;
+}
+.searchfield input{
+	width: 426px; height: 25px;
+	margin: 20 auto;
+	font-size: large;
+	border-radius: 5px 5px;
+	padding: 5px;
+}
+.buttons input {
+	height: 36px;
+	line-height: 27px;
+	background-image: -moz-linear-gradient(center top , #F5F5F5, #F1F1F1);
+	-moz-user-select: none;
+	background-color: #F2F2F2;
+	border: 1px solid #F2F2F2;
+	border-radius: 2px;
+	color: #757575;
+	cursor: default;
+	font-weight: bold;
+	margin: 11px 4px;
+	min-width: 54px;
+	padding: 0px 16px;
+	text-align: center;
+}
+.content img{
+	width: 272px; height: 92px;
+}
+#container{
+	min-height: 100%;
+}
+.content {
+	position: relative;
+margin: 100px auto 0px auto}
+
+
